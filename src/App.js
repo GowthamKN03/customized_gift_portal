@@ -11,6 +11,10 @@ import Fav from './home/Fav';
 import { Product1Context } from './context/Product1_context';
 import Product1 from './home/Product1';
 import Cart from './home/Cart';
+import AddProduct from './admin/AddProduct';
+import RemoveProduct from './admin/RemoveProduct';
+import ProductList from './admin/ProductList';
+import Dashboard from './admin/Dashboard';
 
 
 function App() {
@@ -25,13 +29,16 @@ function App() {
        <Product1Context>
       <Router>
         <Routes>
-          <Route path="/" element={<Home />} />
+          <Route path="/" element={<Dashboard />} />
           <Route path='/home' element={<Home/>}/>
           <Route path="/login" element={<Login/>} />
           <Route path="/register" element={<Register />} />
           <Route path='/cart' element={<Cart/>}/>
           <Route path='/fav' element={<Fav/>}/>
           <Route path='/frames' element={<Product1/>}/>
+          <Route path="/add-product" element={<AddProduct />} />
+          <Route path="/remove-product" element={<RemoveProduct />} />
+          <Route path="/product-list" element={<ProductList />} />
           
         </Routes>
       </Router>
