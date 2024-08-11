@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+// src/components/RemoveProduct.jsx
+>>>>>>> 32c962d494cf8cd29227d09cbf5b1af7c2dbd723
 import React, { useState } from 'react';
 
 const RemoveProduct = ({ removeProduct }) => {

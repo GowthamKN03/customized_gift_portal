@@ -37,7 +37,17 @@ const Footer = () => {
             <p className="  pt-4">
             Unwrap the joy of giving with Suprise Hub - where every gift tells a story.
             </p>
+<<<<<<< HEAD
             
+=======
+            <a
+              href="https://www.youtube.com/channel/UC1H-a1MKEFXRiFlGNLcy7gQ"
+              target="_blank"
+              className="inline-block bg-[#3d2517] py-2 px-4 mt-5 text-sm rounded-full"
+            >
+              Visit our YouTube Channel
+            </a>
+>>>>>>> 32c962d494cf8cd29227d09cbf5b1af7c2dbd723
           </div>
 
           {/* Footer links */}
